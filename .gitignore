@@ -1,0 +1,22 @@
+data/building_data
+
+# file types often used for raw data
+*.parquet
+*.feather
+*.csv
+*.tsv
+*.xlsx
+*.zip
+
+# local configs & secrets
+.env
+.env.*
+config/*local*.yaml
+config/*secrets*.yaml
+
+# caches / noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
